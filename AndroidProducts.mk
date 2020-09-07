@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_zenlte.mk
+    $(LOCAL_DIR)/aex_zenlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_zenlte-user \
-    aosp_zenlte-userdebug \
-    aosp_zenlte-eng
+    aex_zenlte-user \
+    aex_zenlte-userdebug \
+    aex_zenlte-eng

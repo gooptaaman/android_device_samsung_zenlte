@@ -29,16 +29,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from zenlte device
 $(call inherit-product, device/samsung/zenlte/device.mk)
 
-# Inherit some common Pixel Experience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := aosp_zenlte
+PRODUCT_NAME := aex_zenlte
 PRODUCT_DEVICE := zenlte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-G928F
-TARGET_GAPPS_ARCH := arm64
 
 #Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1440
